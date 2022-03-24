@@ -1,0 +1,17 @@
+{
+  "name": "udemy_pw",
+  "version": "1.0.0",
+  "description": "automation_poc_playwright",
+  "main": "index.js",
+  "scripts": {
+    "tests:chrome": "playwright test --config=playwright.config.ts --project=Chromium",
+    "tests:firefox": "playwright test --config=playwright.config.ts --project=Firefox",
+    "tests:webkit": "playwright test --config=playwright.config.ts --project=Webkit"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.20.0",
+    "prettier": "^2.6.0"
+  }
+}
